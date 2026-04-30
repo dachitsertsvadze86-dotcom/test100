@@ -1,11 +1,9 @@
-import type { Metadata } from "next";
-import "./globals.css";
+import type { Metadata } from 'next';
+import './globals.css';
 
 export const metadata: Metadata = {
-  title: "Car Customizer - Toyota Supra A90",
-  description: "Customize your Toyota Supra with premium parts and real-time visualization",
-  viewport: "width=device-width, initial-scale=1",
-  keywords: ["car", "customizer", "supra", "toyota", "parts", "tuning"],
+  title: 'Car Customizer - Toyota Supra A90',
+  description: 'Customize your Toyota Supra with premium parts and real-time visualization',
 };
 
 export default function RootLayout({
