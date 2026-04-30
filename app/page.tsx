@@ -14,7 +14,7 @@ export default function Home() {
   const [selectedParts, setSelectedParts] = useState<SelectedParts>({});
 
   const selectedCar = cars.find((c) => c.id === selectedCarId) || null;
-  const availableParts = selectedCarId
+  const availableParts = selectedCarId && selectedPartType
     ? parts[selectedCarId]?.[selectedPartType] || []
     : [];
 
