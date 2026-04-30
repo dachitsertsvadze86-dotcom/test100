@@ -1,0 +1,149 @@
+export const parts: Record<string, Record<string, any[]>> = {
+  supra: {
+    bumper: [
+      {
+        id: 1,
+        name: "Stock Front Bumper",
+        image: "/cars/supra/parts/bumper-stock.png",
+        price: "$450",
+        priceValue: 450,
+        link: "https://example.com/buy/bumper1",
+        category: "bumper"
+      },
+      {
+        id: 2,
+        name: "Sport Aggressive Bumper",
+        image: "/cars/supra/parts/bumper-sport.png",
+        price: "$799",
+        priceValue: 799,
+        link: "https://example.com/buy/bumper2",
+        category: "bumper"
+      },
+      {
+        id: 3,
+        name: "Carbon Fiber Bumper",
+        image: "/cars/supra/parts/bumper-carbon.png",
+        price: "$1,299",
+        priceValue: 1299,
+        link: "https://example.com/buy/bumper3",
+        category: "bumper"
+      }
+    ],
+    wheels: [
+      {
+        id: 1,
+        name: "OEM 19\" Wheels",
+        image: "/cars/supra/parts/wheels-oem.png",
+        price: "$1,200",
+        priceValue: 1200,
+        link: "https://example.com/buy/wheels1",
+        category: "wheels"
+      },
+      {
+        id: 2,
+        name: "Forged Sport Wheels",
+        image: "/cars/supra/parts/wheels-sport.png",
+        price: "$1,899",
+        priceValue: 1899,
+        link: "https://example.com/buy/wheels2",
+        category: "wheels"
+      },
+      {
+        id: 3,
+        name: "Premium Racing Wheels",
+        image: "/cars/supra/parts/wheels-racing.png",
+        price: "$2,499",
+        priceValue: 2499,
+        link: "https://example.com/buy/wheels3",
+        category: "wheels"
+      }
+    ],
+    hood: [
+      {
+        id: 1,
+        name: "Stock Hood",
+        image: "/cars/supra/parts/hood-stock.png",
+        price: "$350",
+        priceValue: 350,
+        link: "https://example.com/buy/hood1",
+        category: "hood"
+      },
+      {
+        id: 2,
+        name: "Vented Hood",
+        image: "/cars/supra/parts/hood-vented.png",
+        price: "$699",
+        priceValue: 699,
+        link: "https://example.com/buy/hood2",
+        category: "hood"
+      },
+      {
+        id: 3,
+        name: "Carbon Fiber Hood",
+        image: "/cars/supra/parts/hood-carbon.png",
+        price: "$1,500",
+        priceValue: 1500,
+        link: "https://example.com/buy/hood3",
+        category: "hood"
+      }
+    ],
+    engine: [
+      {
+        id: 1,
+        name: "Stock 3.0L Turbo",
+        image: "/cars/supra/parts/engine-stock.png",
+        price: "$3,500",
+        priceValue: 3500,
+        link: "https://example.com/buy/engine1",
+        category: "engine"
+      },
+      {
+        id: 2,
+        name: "Tuned 3.0L Turbo 370HP",
+        image: "/cars/supra/parts/engine-tuned.png",
+        price: "$4,200",
+        priceValue: 4200,
+        link: "https://example.com/buy/engine2",
+        category: "engine"
+      },
+      {
+        id: 3,
+        name: "High Performance 420HP",
+        image: "/cars/supra/parts/engine-performance.png",
+        price: "$5,999",
+        priceValue: 5999,
+        link: "https://example.com/buy/engine3",
+        category: "engine"
+      }
+    ],
+    exhaust: [
+      {
+        id: 1,
+        name: "Stock Exhaust",
+        image: "/cars/supra/parts/exhaust-stock.png",
+        price: "$400",
+        priceValue: 400,
+        link: "https://example.com/buy/exhaust1",
+        category: "exhaust"
+      },
+      {
+        id: 2,
+        name: "Performance Exhaust",
+        image: "/cars/supra/parts/exhaust-performance.png",
+        price: "$899",
+        priceValue: 899,
+        link: "https://example.com/buy/exhaust2",
+        category: "exhaust"
+      },
+      {
+        id: 3,
+        name: "Titanium Exhaust System",
+        image: "/cars/supra/parts/exhaust-titanium.png",
+        price: "$1,799",
+        priceValue: 1799,
+        link: "https://example.com/buy/exhaust3",
+        category: "exhaust"
+      }
+    ]
+  }
+};
